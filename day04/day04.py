@@ -1,4 +1,7 @@
-start, end = 171309, 643603
+f = open("in04.txt", "r")
+nums = f.readline().split(',')
+start = int(nums[0])
+end = int(nums[1])
 
 ans = 0
 for i in range(start, end):
